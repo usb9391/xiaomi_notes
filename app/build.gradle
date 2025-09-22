@@ -31,10 +31,11 @@ android {
         }
 
     }
+    namespace 'net.micode.notes'
 
 }
 
 dependencies {
     // 新增富文本插件
-    implementation 'jp.wasabeef:richeditor-android:1.2.2'
+    implementation 'jp.wasabeef:richeditor-android:2.0.0'
 }

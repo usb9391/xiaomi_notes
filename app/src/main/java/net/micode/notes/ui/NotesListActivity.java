@@ -175,7 +175,7 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.note_list);
         //getWindow().setBackgroundDrawableResource(R.drawable.spider);
-        getWindow().setBackgroundDrawableResource(R.drawable.wang);
+        //getWindow().setBackgroundDrawableResource(R.drawable.wang);
         initResources();
 
         // 用户首次使用时插入介绍信息
@@ -1126,12 +1126,12 @@ public class NotesListActivity extends Activity implements OnClickListener, OnIt
         switch (item.getItemId()) {
             case R.id.menu_spider: {
                 mode=1;
-                getWindow().setBackgroundDrawableResource(R.drawable.spider);
+                //getWindow().setBackgroundDrawableResource(R.drawable.spider);
                 break;
             }
             case R.id.menu_wang: {
                 mode=-1;
-                getWindow().setBackgroundDrawableResource(R.drawable.wang);
+                //getWindow().setBackgroundDrawableResource(R.drawable.wang);
                 break;
             }
             case R.id.menu_new_folder: {
